@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ORO",
+    "slug": "ORO",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "oro",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0c0c11",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0c0c11"
+      },
+      "package": "com.umitbora94.oro",
+      "splash": {
+        "backgroundColor": "#0c0c11",
+        "resizeMode": "native"
+      }
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-router", "expo-localization"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "25a3d347-45a3-470c-b3cf-1272643e6242"
+      }
+    }
+  }
+}
