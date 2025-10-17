@@ -18,8 +18,9 @@
       },
       "package": "com.umitbora94.oro",
       "splash": {
+        "image": "./assets/splash.png",
         "backgroundColor": "#0c0c11",
-        "resizeMode": "native"
+        "resizeMode": "contain"
       }
     },
     "web": {
